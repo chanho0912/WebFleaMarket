@@ -1,0 +1,106 @@
+@import url('./font.css');
+
+.showcase{
+  background: url('./images/x-mas.jpg');
+  background-size: cover;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  font-family: Abel;
+}
+
+.showcase, .background{
+  padding-top: 10rem;
+  text-align: center;
+  color: white;
+}
+
+.showcase h1, h3{
+  margin: .3rem;
+}
+
+.showcase h1{
+  font-size: 2.5rem;
+}
+
+.showcase h3{
+  font-family: Abel;
+  font-size: 1.3rem;
+}
+
+.btn{
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+  margin: 1.8rem;
+  background: #f0c14b;
+  font-size: 1rem;
+  font-family: Abel;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+
+.second_paragraph{
+  background: url('./images/background_3.jpg');
+  width: 100%;
+  font-family: Abel;
+}
+
+.second__post{
+  padding-top: 6rem;
+  display: grid;
+  width: 90%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  margin-right: 20px;
+}
+
+.second__content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  margin: .1rem 2rem;
+  margin-bottom: 10rem;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.second__content >img{
+  height: 200px;
+  width: 100%;
+  align-items: center;
+  margin-top: 10px;
+  color: #282828;
+}
+
+.second__content > title{
+  padding: 2rem 0;
+}
+
+.second__content > p{
+  padding: .2rem .2rem;
+  margin: .5rem;
+}
+.second__content > input{
+  border-radius: 2rem;
+  padding: .7rem 2rem;
+  margin: .5rem;
+  cursor: pointer;
+}
+
+.second__content > button{
+  background: #f0c14b;
+  border: 1px solid;
+  border-radius: 2rem;
+  padding: .7rem 2rem;
+  margin: .5rem;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}

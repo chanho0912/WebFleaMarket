@@ -1,0 +1,98 @@
+@import url('./font.css');
+
+
+.admin{
+    background-color: white;
+    font-family: Abel;
+}
+
+.admin__container > h1{
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    background-color: rgb(234, 237, 237);
+    border-bottom: 1px solid lightgray;
+}
+
+.admin__container >h1 a{
+    text-decoration: none;
+}
+
+.admin__userSection{
+    background: url('./images/background_3.jpg');
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.admin__productSection{
+    background: url('./images/background_3.jpg');
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgray;
+}
+.admin__userList{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    width: 80%;
+    margin: .1rem 2rem;
+    margin-bottom: 10rem;
+    grid-gap: 60px;
+}
+.user__item{
+    height:100%;
+    justify-content: center;
+    text-align: center;
+    border-color:#3B3B3B;
+    border-style: solid;
+    border-width: thin;
+}
+.user__item > input{
+    border-radius: 2rem;
+    padding: .7rem 2rem;
+    margin: .5rem;
+    cursor: pointer;
+}
+.user__item > button{
+    background: #f0c14b;
+    border: 1px solid;
+    border-radius: 2rem;
+    padding: .7rem 2rem;
+    margin: .5rem;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}
+
+.admin__productList{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    width: 80%;
+    margin: .1rem 2rem;
+    margin-bottom: 10rem;
+    grid-gap: 60px;
+}
+
+.Product__image{
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+    color: #282828;
+}
+
+.admin__productItem{
+    height:100%;
+    justify-content: center;
+    text-align: center;
+    border-color:#3B3B3B;
+    border-style: solid;
+    border-width: thin;
+}
+
+.admin__productItem > p{
+    padding: .2rem .2rem;
+    margin: .5rem;
+  }
